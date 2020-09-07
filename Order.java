@@ -14,4 +14,10 @@ class Order {
         items.add("Chicken Sandwich");
         System.out.println("A chicken sandwich has been added to your order.");
     }
+
+    public void addMcBorrger(){
+        totalCost = totalCost + 50;
+        items.add("McBorrger");
+        System.out.println("A McBorrger has been added to you are order.");
+    }
 }

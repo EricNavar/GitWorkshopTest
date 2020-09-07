@@ -13,6 +13,7 @@ public class Main
             System.out.println("3. Fries");
             System.out.println("4. Salad");
             System.out.println("5. Shake");
+            System.out.println("6. McBorrger");
             System.out.println("0. Done");
             System.out.print("Select an option: ");
 
@@ -25,6 +26,9 @@ public class Main
                     break;
                 case 1:
                     order.addChickenSandwich();
+                    break;
+                case 6:
+                    order.addMcBorrger();
                     break;
                 //put your case below this comment
             }
