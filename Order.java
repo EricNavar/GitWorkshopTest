@@ -20,4 +20,8 @@ class Order {
         items.add("McBorrger");
         System.out.println("A McBorrger has been added to you are order.");
     }
+
+    public void addDrink() {
+        //code
+    }
 }

@@ -31,6 +31,9 @@ public class Main
                     order.addMcBorrger();
                     break;
                 //put your case below this comment
+                case 2:
+                    order.addDrink();
+                    break;
             }
         }
     }
