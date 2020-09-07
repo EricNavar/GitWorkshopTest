@@ -27,6 +27,9 @@ public class Main
                     order.addChickenSandwich();
                     break;
                 //put your case below this comment
+                case 2:
+                    order.addDrink();
+                    break;
             }
         }
     }
