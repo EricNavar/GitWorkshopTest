@@ -14,4 +14,8 @@ class Order {
         items.add("Chicken Sandwich");
         System.out.println("A chicken sandwich has been added to your order.");
     }
+
+    public void addFries() {
+        //code
+    }
 }
