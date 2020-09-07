@@ -23,6 +23,9 @@ public class Main
                 case 0:
                     order.printOrder();
                     break;
+                case 1:
+                    order.addChickenSandwich();
+                    break;
                 //put your case below this comment
             }
         }
